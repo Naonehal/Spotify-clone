@@ -77,15 +77,28 @@ body{
 .library{
     background-color: #121212;
     border-radius: 0.5rem;
-    height: 100%;
     margin-top: 0.5rem;
     padding: 0.5rem 0.75rem;
+    height: 100%;
 }
+
+
 
 .options {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.content{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    height: 9rem;
+}
+
+.content:hover{
+    overflow-y: scroll;
 }
 
 .lib-option img{
@@ -123,6 +136,27 @@ body{
 .box-p2{
     font-size: 0.85rem;
     opacity: 0.9;
+}
+
+.left-sidebar-bottom {
+    height: 100%;
+}
+
+.legal-links{
+    margin: 32px 0;
+    padding: 0 6px;
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legal-links a{
+    margin-right: 16px;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-size: 0.75rem;
+    line-height: normal;
+    margin-bottom: 12px;
 }
 
 .badge{
